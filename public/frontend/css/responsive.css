@@ -1,0 +1,46 @@
+
+
+/* ==========================responsive css===================== */
+
+
+@media (min-width:360px) and (max-width:640px){
+    .photo_inner{
+        width: 25%;
+    }
+    .paragraph{
+        width: 25%;
+    }
+    .menu{
+        width: 40%;
+        padding-left: 6px;
+        position: relative;
+        background-color: #a7560a;
+        height: 184px;
+        margin-bottom: 95px;
+
+    }
+}
+
+@media (min-width:418px) and (max-width:375px){
+    #logo{
+        text-align: center;
+    }
+   .about.photo_inner{
+        width: 25%;
+    }
+    .about.paragraph{
+        width: 25%;
+    }
+    .personal_info{
+        width: 50%;
+    }
+    .menu{
+        width: 40%;
+        padding-left: 6px;
+        position: relative;
+        background-color: #a7560a;
+        height: 184px;
+        margin-bottom: 95px;
+
+    }
+}
